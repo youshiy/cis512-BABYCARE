@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Added Diaper In Main</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="newDiaperInMain.css">
+   
+</head>
+
+<body>
+    <div class="center-container">
+        <div class="logo-container">
+            <img src="images/newDiaperInMain.svg" alt="NewAddedDiaper main page">
+        </div>
+
+        <!-- Trigger/Open The Modal -->
+        <img id="btnShowDiaper" src="images/pooActivity.svg" alt="Show Diaper" style="cursor: pointer;" />
+        
+
+        <a href="addRecord.html" class="add-button">
+            <img src="images/addButton.svg" alt="addbutton", class="button-icon">
+        </a>
+    </div>
+
+    <!-- The Modal -->
+    <div id="diaperModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="diaperInfo"></div>
+        </div>
+    </div>
+
+    <script src="navigation.js" defer></script>
+    <script src="newDiaperShown.js" defer></script> 
+</body>
+</html>

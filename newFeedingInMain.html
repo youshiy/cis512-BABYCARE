@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Added Feeding In Main</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="newFeedingInMain.css">
+   
+</head>
+
+<body>
+    <div class="center-container">
+        <div class="logo-container">
+            <img src="images/newFeedingInMain.svg" alt="New Added Feeding main page">
+        </div>
+        <!-- Trigger/Open The Modal -->
+        <img id="btnShowFeeding" src="images/pumpedMilkActivity.svg" alt="Show Feeding" style="cursor: pointer;" />
+        
+        <a href="addRecord.html" class="add-button" id="btnAddRecord">
+            <img src="images/addButton.svg" alt="addbutton" class="button-icon">
+        </a>
+    </div>
+
+    <!-- The Modal -->
+    <div id="feedingModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="feedingInfo"></div>
+        </div>
+    </div>
+
+    <script src="navigation.js" defer></script>
+    <script src="newFeedingShown.js" defer></script>
+</body>
+</html>

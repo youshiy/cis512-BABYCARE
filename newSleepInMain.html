@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Added Sleep In Main</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="newSleepInMain.css">   
+</head>
+
+<body>
+    <div class="center-container">
+        <div class="logo-container">
+            <img src="images/newSleepInMain.svg" alt="NewAddedSleep main page">
+        </div>
+    
+        <img id="btnShowSleep" src="images/napActivity.svg" alt="Show sleep" style="cursor: pointer;" />
+
+        <a href="addRecord.html" class="add-button">
+            <img src="images/addButton.svg" alt="addbutton", class="button-icon">
+        </a>
+    </div>
+
+    <!-- Modal HTML Structure -->
+    <div id="sleepModal" class="modal" style="display:none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="sleepInfo"></div>
+        </div>
+    </div>
+
+    <script src="navigation.js" defer></script>
+    <script src="newSleepShown.js" defer></script>
+</body>
+</html>

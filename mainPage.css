@@ -1,0 +1,25 @@
+.center-container {
+  position: relative; 
+  width: 100%; 
+}
+
+.add-button {
+  position: absolute; 
+  left: 50%; 
+  bottom: 1%; 
+  transform: translateX(-50%); 
+
+  text-decoration: none; 
+  border: none; 
+  outline: none;
+  display: inline-block;
+  
+}
+
+.add-button img {
+  border: none;
+  outline: none; 
+}
+
+
+
